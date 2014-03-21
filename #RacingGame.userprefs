@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\XMLParserAndMenuSetup.cs">
+    <Files>
+      <File FileName="Assets\XMLParserAndMenuSetup.cs" Line="40" Column="16" />
+      <File FileName="Assets\XMLParserAndMenuSetup.cs" Line="1" Column="19" />
+      <File FileName="Assets\Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\MenuItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\MenuItems.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

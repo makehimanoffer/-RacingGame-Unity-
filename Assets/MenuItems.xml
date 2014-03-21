@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <Asset Type="System.String">
+      <Item>
+        <ObjectType>GUI.TEXT</ObjectType>
+        <TextValOrTextureName>WELCOME TO #RacingGame</TextValOrTextureName>
+        <X>Middle</X>
+        <Y>Top</Y>
+        <W>200</W>
+        <H>200</H>
+      </Item>
+     
+     
+     
+     
+
+    
+  </Asset>
