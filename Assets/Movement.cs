@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour {
 	private Quaternion localRotation;
 
 	public Vector2 _vel = new Vector2(0,0);
-	int number=10;
+	public int number;
 	// Use this for initialization
 	void Start () {
 
@@ -50,23 +50,51 @@ public class Movement : MonoBehaviour {
 		
 		// Move object
 		transform.Translate (dir * speed );
+
+			if(Input.GetKey(KeyCode.LeftArrow)){
+				transform.Rotate(new Vector3(0,0,2),1f,0);
+			}
+			
+
+
+			if(Input.GetKey(KeyCode.RightArrow)){
+				transform.Rotate(new Vector3(0,0,-2),1f,0);
+			}
+
+
+			if(Input.GetKey(KeyCode.UpArrow)){
+				transform.Translate(new Vector3(0,1,0)*Time.deltaTime*number);
+			}
+
+
+			if(Input.GetKey(KeyCode.DownArrow)){
+				transform.Translate(new Vector3(0,-1,0)*Time.deltaTime*number);
+			}
+
 		/*
 		if(left){
 
 			transform.Rotate(new Vector3(0,0,1),.5f,0);
 
+
 		}
 		if(right){
+
 			transform.Rotate(new Vector3(0,0,-1),.5f,0);
+
 		}
 		if(up){
+
 			transform.Translate(new Vector3(0,1,0)*Time.deltaTime*number);
+
 		}
 		if(down){
-			transform.Translate(new Vector3(0,-1,0)*Time.deltaTime*number);
-		}
 
-		*/
+			transform.Translate(new Vector3(0,-1,0)*Time.deltaTime*number);
+
+		}
+*/
+	
 	
 	}
 	void OnGUI(){

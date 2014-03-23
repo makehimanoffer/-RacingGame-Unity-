@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F6630BBE-F9C5-5A95-B3B2-AC444C92B1BE}</ProjectGuid>
+	<ProjectGuid>{94E44059-8AEE-B21F-EF36-DF506FF9370C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,12 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AdmobBanner\AdmobBanner.js" />
+     <None Include="Assets\Plugins\Android\AndroidManifestOriginal.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\MenuItems.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{587EEC10-0BEF-16C8-B3CF-875112879D4C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{D27D7C5E-2725-E15A-B70E-94FC2B660CC0}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

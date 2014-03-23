@@ -8,6 +8,22 @@
         <W>200</W>
         <H>200</H>
       </Item>
+      <Item>
+        <ObjectType>GUI.BUTTON</ObjectType>
+        <TextValOrTextureName>PRESS TO START Level 1</TextValOrTextureName>
+        <X>Middle</X>
+        <Y>Top</Y>
+        <W>200</W>
+        <H>100</H>
+      </Item>
+      <Item>
+        <ObjectType>GUI.BUTTON</ObjectType>
+        <TextValOrTextureName>PRESS TO START Level 2</TextValOrTextureName>
+        <X>Middle</X>
+        <Y>Top</Y>
+        <W>200</W>
+        <H>100</H>
+      </Item>
      
      
      

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{587EEC10-0BEF-16C8-B3CF-875112879D4C}</ProjectGuid>
+	<ProjectGuid>{D27D7C5E-2725-E15A-B70E-94FC2B660CC0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Plugins\AdBannerObserver.cs" />
      <Compile Include="Assets\Plugins\AdMobPlugin\AdMobPlugin.cs" />
      <Compile Include="Assets\Plugins\AdMobPlugin\AdMobPluginDemoScript.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifestOriginal.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\MenuItems.xml" />
   </ItemGroup>

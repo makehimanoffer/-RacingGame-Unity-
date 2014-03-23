@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DoTheDrawOfTheMenuFGT.cs">
+    <Files>
+      <File FileName="Assets\XMLParserAndMenuSetup.cs" Line="71" Column="4" />
+      <File FileName="Assets\MenuItems.xml" Line="21" Column="53" />
+      <File FileName="Assets\DoTheDrawOfTheMenuFGT.cs" Line="47" Column="32" />
+      <File FileName="Assets\Movement.cs" Line="55" Column="47" />
+      <File FileName="Assets\AIMovement.cs" Line="25" Column="18" />
+      <File FileName="Assets\Plugins\Android\AndroidManifest.xml" Line="23" Column="109" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
